@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="actu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Actualité</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <h1><a href="Index.html">Stvg</a></h1>
+                <div class="dropdown">
+                    <button class="dropbtn">Jeux</button>
+                    <div class="dropdown-content">
+                        <a href="GTA.html">GTA</a>
+                        <a href="minecraft.html">Minecraft</a>
+
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Actu du moment</button>
+                    <div class="dropdown-content">
+                        <a href="actu.html">Minecraft 1.21.2 : Bundles of Bravery</a>
+                        <a href="actu2.html">[Map] Woraxstone [1.21+]</a>
+                        <a href="actu3.html">GTA</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Vidéo du moment</button>
+                    <div class="dropdown-content">
+                        <a href="video2.html">Vidéo GTA</a>
+                        <a href="video.html">Vidéo Minecraft</a>
+
+                    </div>
+                </div>
+                <a href="contact.html">contact</a>
+                <input class="search-input" type="search" placeholder="type to search">
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="page">
+            <section>
+                <div class="actu">
+                    <h2>Actualité</h2>
+                    <p>Minecraft 1.21.2 : Bundles of Bravery</p>
+                    <img src="Image/bundle of bravery.jpg" alt="bundle of bravery minecraft">
+                    <p>La version 1.21.2 de de Minecraft aussi nommée <b>Bundles of Bravery</b>, est désormais
+                        disponible dans votre launcher.Cette mise à jour introduit pleinement le <a
+                            href="https://www.minecraft-france.fr/guide-minecraft/le-sac-bundle-dans-minecraft-guide-complet/">sac</a>
+                        dans le jeu, qui était déja présent, mais caché, dans le jeu depuis <a
+                            href="https://www.minecraft-france.fr/minecraft-1-17-caves-cliffs-partie-1-disponible/">Minecraft
+                            1.17</a> il y a maintenant 4 ans.Il a également subit quelques améliorations.</p>
+                    <br>
+                    <br>
+                    <p>Cette version introduit également de nouvelles fonctionnalités expérimentales pour le drop
+                        hivernal (jardin pâle), la redstone et les wagonnets. Cependant,celles-ci ne seront pas abordées
+                        dans cet article. Elles seront exclusivement mentionnées dans les versions correspondantes.</p>
+                    <br>
+                    <br>
+                    <p>Trailer du drop « Bundles of Bravery » :</p>
+                    <video id="video1" src="Video/Bundles of Bravery.mp4" play loop muted controls></video>
+                </div>
+            </section>
+            <section>
+                <div class="page2">
+                    <p>Sommaire</p>
+                    <li>Ajouts et modification</li>
+                    <ul>
+                        <li>Sacs</li>
+                        <li>Rareté des objets</li>
+                        <li>Chambres des épreuves</li>
+                        <li>Entités</li>
+                        <li>Blocs & objets</li>
+                        <li>Divers</li>
+                    </ul>
+                    <li>Éléments techniques</li>
+                    <li>Téléchargement de la version 1.21.2</li>
+                </div>
+            </section>
+            <section>
+                <H3> <img src="Image/icone-categorie-h2-minecraft.jpg" alt="icone bloc minecraft">Ajout et modification
+                    <hr>
+                </H3>
+
+                <h3><a
+                        href="https://www.minecraft-france.fr/guide-minecraft/le-sac-bundle-dans-minecraft-guide-complet/">Sacs</a>
+                </h3>
+                <br>
+                <P>Pour rappel, un sac est un objet qui peut contenir qu’une seule pile (généralement 64 objets), mais
+                    il peut s’agir d’un mélange de plusieurs types d’objets différents. Et les objets peuvent être
+                    ajoutés directement dans l’inventaire.</P>
+                <br>
+                <li>Le sac peut désormais être fabriqué et être présent dans l’inventaire créatif sans activateur
+                    expérimental.</li>
+                <li>Les objets contenus dans les sacs sont indiqués dans l’infobulle.</li>
+                <ul>
+                    <li>Si un sac contient jusqu’a 12 types d’objets, ils seront tous affichés. </li>
+                    <ul>
+                        <li>
+                            Si le sac en contient 13 et +, les premiers types d’objets placés seront cachés.
+                        </li>
+                    </ul>
+                </ul>
+                <li>Il est désormais possible de sélectionner n’importe quel objet visible pour l’extraire du sac. </li>
+                <ul>
+                    <li>La molette de la souris permet de sélectionner un objet, puis un clic droit permet de le
+                        prendre.</li>
+                    <li>Un simple clic droit permet de prendre le premier objet.</li>
+                    <li>Lors de la sélection, l’icône du sac montre l’objet dépassant du sac.</li>
+                </ul>
+                <li>Faire un clic droit avec un sac en main permet de jeter au sol l’objet le plus récemment placé dans
+                    le sac.</li>
+                <li>Le sac peut maintenant être fabriqué avec une ficelle au-dessus d’un morceau de cuir au lieu de 6
+                    peaux de lapin et deux ficelles, ce qui était trop cher.</li>
+                <li>Le sac peut désormais être teint de 16 couleurs différentes.</li>
+                <img id="Sacs" src="Image/Bundle-1.21.2.jpg" alt="bundle inventaire minecraft">
+                <H3>Rareté des objets</H3>
+                <li>La rareté est un ensemble de catégories qui déterminent la couleur utilisée pour afficher le nom
+                    d’un objet ou d’un bloc. </li>
+                <ul>
+                    <li>
+                        Elle n’a pas d’impact sur le jeu, mais est utilisée pour indiquer la difficulté d’obtention d’un
+                        objet.
+                    </li>
+                    <li>Par défaut, sauf indication contraire, tous les objets et blocs ont une rareté commune qui
+                        affiche leur nom en blanc.</li>
+                </ul>
+                <li>La rareté de tous les objets et blocs du jeu a été réévaluée en fonction des facteurs suivants :
+                </li>
+                <ul>
+                    <li>Les chances de les trouver dans une table de butin, incluant les objets lâchés par les
+                        créatures.</li>
+                    <li>le nombre de déplacements nécessaires pour l’obtenir</li>
+                    <li>la difficulté des obstacles à surmonter pour l’obtenir</li>
+                    <li>La quantité possible de cet objet ou de ce bloc dans le monde.</li>
+                </ul>
+                <li>Tout objet ou bloc qui peut être fabriqué hérite de la rareté la plus élevée de ses ingrédients de
+                    fabrication</li>
+            </section>
+            <section>
+                <h3><b>Chambres des épreuves</b></h3>
+                <br>
+                <li>Ajout de nouvelles variantes aux couloirs dans les <a
+                        href="https://www.minecraft-france.fr/guide-minecraft/trial-chamber-decouvrez-tout-ce-quil-faut-savoir-sur-cette-structure/">chambres
+                        des épreuves</a>, dont les «<b>Encounter</b>» : De petites épreuves menant à une chambre plus
+                    grande.</li>
+                <li>Les lits situés aux intersections ont désormais des couleurs aléatoires.</li>
+                <li>Les coffres vides à l’entrée des chambres ont été remplacés par un tonneau et un entonnoir <br>afin
+                    de mieux montrer aux joueurs que c’est destiné à la gestion de l’inventaire.</li>
+                <br>
+                <img id="Sacs" src="Image/2024-08-15_19.51.03.jpg" alt="chambres des épreuves">
+                <h5>poubelle des épreuves</h5>
+                <h3>Entités</h3>
+                <li>Les perles de l’Ender lancées chargent désormais les chunks. </li>
+                <ul>
+                    <li>Elles s’assurent que le chunk dans lequel elles se trouvent/elles voyagent est toujours chargé
+                        et en état de fonctionnement.</li>
+                    <li>Elles chargent également les chunks lorsqu’elles passent dans une nouvelle dimension.</li>
+                    <li>Cela garantit que les perles de l’Ender peuvent toujours atterrir et rend les déplacements des
+                        perles entre les dimensions plus prévisibles.</li>
+                    Les perles de l’Ender sont désormais déchargées lorsqu’un joueur se déconnecte, et réapparaissent
+                    lorsque le joueur se reconnecte, à l’instar des montures.
+                </ul>
+                <li>Ajout des bébés dauphins, poulpes et poulpes luisants.</li>
+                <li>Ajout des saumons de petite et grande taille.</li>
+                <li>Les chauves-souris peuvent désormais apparaître à n’importe quelle hauteur, et non plus seulement
+                    sous le niveau de la mer, à condition qu’il fasse suffisamment sombre et qu’il y ait un bloc solide
+                    sur lequel elles peuvent apparaître.</li>
+                <li>Les <a
+                        href="https://www.minecraft-france.fr/guide-minecraft/guide-toutes-les-creatures-mobs-de-minecraft/le-loup-dans-minecraft-guide-complet/">loups</a>
+                    peuvent désormais être nourris de morue, morue cuite, saumon, saumon cuit, poissons tropicaux,
+                    poisson-globe et de ragoût de lapin comme sur Bedrock.</li>
+                <li>le <a
+                        href="https://www.minecraft-france.fr/guide-minecraft/breeze-guide-complet-sur-cette-creature-dans-minecraft-1-21/">Breeze</a> n’a
+                    plus de distance minimale requise pour attaquer une cible.</li>
+                <li>Lorsqu’une créature passe d’un type à un autre (ex : Piglin en Piglin zombifié), la santé de la
+                    créature convertie est fixée au même pourcentage de santé que la créature originale avant la
+                    conversion.</li>
+                <li>Les projectiles tels que les flèches, les tridents et les flotteurs de pêche rebondissent désormais
+                    sur la bordure du monde.</li>
+            </section>
+            <section>
+                <h3>Blocs & objets</h3>
+                <li>La torche de redstone a été relookée, afin de lui donner une identité unique et distinctive.</li>
+                <img id="Sacs" src="Image/Torche-de-redstone-1.21.2.jpg" alt="torche de redstone">
+                <li>S’accroupir en tombant sur un bloc de slime n’inflige plus de dégats de chute.</li>
+                <li>Ajout de sons uniques au générateur de créatures qui ressemblent à ceux du générateur des épreuves.
+                </li>
+                <li>Les <a
+                        href="https://www.minecraft-france.fr/guide-minecraft/guide-minecraft-comment-fabriquer-des-bannieres/">motifs
+                        de banières</a>ont maintenant des textures uniques pour mieux les distinguer et le nom du motif
+                    figure dans leur nom au lieu d’être un sous-titre.
+                </li>
+                <li>Ajout des motifs de <b>champ maçonné</b> & de <b>bordure cannelée</b> pour bannière qui étaient
+                    exclusifs à l’édition Bedrock.</li>
+                <img id="Sacs" src="Image/Motifs-de-banniere-1.21.2.jpg" alt="motifs de bannières">
+                <h5>Les différents motifs de bannière</h5>
+                <li>les <a
+                        href="https://www.minecraft-france.fr/guide-minecraft/guide-tout-savoir-sur-les-modeles-de-forge-dans-minecraft/">Modèles
+                        de forge</a>
+                </li>
+                <ul>
+                    Le fait qu’il s’agisse d’un modèle de forge est indiqué par un sous-titre dans l’infobulle.
+                </ul>
+                <li>Le niveau de miel et le nombre d’abeilles sont maintenant présents dans l’infobulle des nids
+                    d’abeilles et des ruches.</li>
+                <li>Équiper une citrouille sculptée sur sa tête retire désormais son marqueur sur les cartes pour les
+                    autres joueurs.</li>
+                <li>Il n’est plus possible d’appliquer une teinture à une boîte de Shulker ayant déja cette couleur.
+                </li>
+                <li>Les objets ne se transformeront plus en un autre objet après avoir été consommés en mode Créatif.
+                </li>
+                <ul>Par exemple, une fiole de miel n’ajoutera plus de fiole vide dans l’inventaire lorsqu’elle est
+                    consommée en mode Créatif.</ul>
+                <li>Les boucliers enchantés ont désormais le même scintillement réduit que les armures enchantées.</li>
+                <li>Les recettes des soupes suspectes sont désormais affichées dans le livre de recettes.</li>
+                <br>
+            </section>
+            <section>
+                <h3><b>Divers</b></h3>
+                <li>Ajout des activateurs expérimentaux « <b>Drop hivernal</b> » , « <b>Expérimentations de redstone</b>
+                    » et «<b> Amélioration des wagonnets</b> » sous le menu expérimentations.</li>
+                <li>Le mode Hardcore est maintenant disponible sur les Realms.</li>
+                <li>Le jeu limite désormais le taux de rafraîchissement maximum lorsqu’il est minimisé ou lorsque le
+                    joueur est AFK</li>
+                <ul>
+                    <li>Peut être contrôlé par le nouveau paramètre vidéo « <b>FPS réduit quand </b>»</li>
+                    <ul>
+                        <li><b>Minimisé</b></li>
+                        <ul>
+                            <li>Limite le taux de rafraîchissement à 10 FPS uniquement lorsque la fenêtre de jeu est
+                                réduite.</li>
+                        </ul>
+                    </ul>
+                    <br>
+                    <ul>
+                        <li><b>afk</b> (par défaut)</li>
+                        <ul>
+                            <li>Limite le taux de rafraîchissement à 30 FPS lorsque le jeu ne reçoit aucune entrée de la
+                                part du joueur pendant plus d’une minute. </li>
+                            <li>
+                                Puis limite à 10 FPS après 9 minutes supplémentaires d’inactivité.
+                            </li>
+                            <li>
+                                Limite également à 10 FPS lorsque la fenêtre de jeu est réduite.
+                            </li>
+                        </ul>
+                    </ul>
+                </ul>
+                <li>Ajustement de l’interface pour les bulles d’air. </li>
+                <ul>
+                    <li>Ajout d’un état vide pour les bulles d’air et d’une oscillation lorsque le joueur se noie.</li>
+                    <li>Ajout d’un son lorsque les bulles éclatent.</li>
+                </ul>
+                <li>Les attaquants doivent trouver un lieu d’apparition situé à moins de 96 blocs verticalement
+                    au-dessus ou en-dessous du centre du village pour démarrer une invasion. </li>
+                <ul>
+                    <li>Il est désormais beaucoup moins probable que les attaquants ne trouvent pas d’endroit valide
+                        pour apparaître lors d’une invasion.</li>
+                </ul>
+                <li>Le livre de recettes répète désormais la dernière recette sélectionnée lorsque l’on appuie sur la
+                    touche « espace » ou « entrée ».</li>
+                <li>Ajout du message de mort « [1] s’est fait fracasser par (un(e)) [2] » pour les personnes tuées par
+                    une attaque fracassante de masse.</li>
+                <li>Ajout d’une option d’accessibilité pour rendre les contours des blocs ciblés plus visibles.</li>
+                <li>Ajout d’un support de langue pour le haut-norvégien.</li>
+                <li>Ajout de la raison de signalement de skin « Sexuellement inapproprié » et retrait de la raison
+                    inutilisées « Diffamation » et du doublon « Menace de nuire à autrui »</li>
+
+            </section>
+
+        </div>
+    </main>
+
+        <footer>
+            <div class="footerContainer">
+                <div class="socialIcons">
+                    <a href="https://www.facebook.com/?locale=fr_FR/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/?mx=2"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.google.fr/"><i class="fa-brands fa-google-plus"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="footerNav">
+                    <ul><li><a href="Index.html">Home</a></li>
+                        <li><a href="minecraft.html">News</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="footerBottom">
+                <p>Copyright &copy;2024; Designed by <span class="designer">Karim and Nikita</span></p>
+            </div>
+        </footer>
+    
+</body>
+
+</html>

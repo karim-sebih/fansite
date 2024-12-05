@@ -1,0 +1,208 @@
+.titre {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    height: 100%;
+    font-weight: bold;
+}
+
+.pp {
+    margin: 30px 46px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.pp2 {
+    text-align: center;
+    line-height: 25px;
+    background-color: rgb(35, 35, 35);
+    padding: 10px 10px;
+    border-radius: 40px;
+    margin: 40px;
+}
+
+.pp3 {
+    text-align: center;
+    line-height: 25px;
+    background-color: rgb(35, 35, 35);
+    padding: 10px 10px;
+    border-radius: 40px;
+    margin: 40px;
+}
+
+.pp4 {
+    text-align: center;
+    line-height: 25px;
+    background-color: rgb(35, 35, 35);
+    padding: 10px 10px;
+    border-radius: 40px;
+    margin: 40px;
+}
+
+.pp5 {
+    text-align: center;
+    line-height: 25px;
+    background-color: rgb(35, 35, 35);
+    padding: 10px 10px;
+    border-radius: 40px;
+    margin: 40px;
+}
+
+.mini1 {
+    border-radius: 40px;
+    background-color: rgb(35, 35, 35);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10px;
+    width: 280px;
+}
+
+.mini1 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.mini1 div i {
+    display: flex;
+    align-items: center;
+}
+
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+#S1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    height: 72%;
+    text-align: center;
+    height: 800px;
+}
+
+
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    flex-direction: column;
+    height: 510px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+#S3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#S4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#S5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.dollar img {
+    height: 100%;
+    width: 90%;
+}
+
+.mercenaire img {
+    height: 100%;
+    width: 90%;
+}
+
+.drug-war img {
+    height: 100%;
+    width: 90%;
+}
+
+.casse {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.casse img {
+    height: 100%;
+    width: 90%;
+}
+
+.mercenaire {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.drug-war {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.container2 {
+    align-items: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 510px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.container2 img {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 80%;
+}
+
+p {
+    font-family: Helvetica;
+}
+
+h1 {
+    font-family: Helvetica;
+}
+
+#S2 h2 {
+    color: orangered;
+}
+
+#S3 h2 {
+    color: orangered;
+}
+
+#S4 h2 {
+    color: orangered;
+}
+
+#S5 h2 {
+    color: orangered;
+}
